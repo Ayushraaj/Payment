@@ -54,7 +54,7 @@ public class FlightService {
 		flightRepo.save(entity);
 
 		
-		return "Your details has been added , pls do the payment";
+		return "Trying jenkins , pls do the payment";
 	}
 	
 	

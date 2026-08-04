@@ -2,7 +2,7 @@ package com.collections;
 
 import java.util.*;
 
-//
+//1
 //class Employee{
 //	
 //
@@ -75,7 +75,7 @@ import java.util.*;
 public class Collection {
 	
 	public static void main(String[] args) {
-		
+//		1
 //		Employee e1 = new Employee("Ayush", "Raj");
 //		
 //		Employee e2 = new Employee("Ayush", "Raj");   // equals checking content bcz we have overided it, if we wont override it
@@ -97,6 +97,9 @@ public class Collection {
 		
 		// hashcode is nothing but a unique number which is given to the each object by JVM
 		// hashcode is of integer type (should be -ve as well as +ve)
+		
+		// if two objects are equals then they have the same hashcode
+		// if two objects returns the same hascode code that does not mean they are equals 
 		
 		
 //		String s1 = "Ayush";
@@ -129,7 +132,7 @@ public class Collection {
 //		March 17 (About set)
 		
 //		---   Default hashSet size = 16;     0-15  index
-//		--- index   ->  hashcode & size (15)  
+//		--- to find index   ->  ayush.hashcode &(operator) size (15)  
 		
 		
 //		--> each time we are adding element inside the set a node will be created for it

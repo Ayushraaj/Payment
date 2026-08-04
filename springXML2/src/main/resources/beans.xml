@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+
+<bean class="com.amazon.Amazon" id="amazon">
+<property name="company_name" value="Amazon"></property>
+<property name="salary" value="47LPA"></property>
+<property name="location" value="Banglore"></property>
+<property name="employe_name" value="Shivam"></property>
+<property name="employe_clg_name" value="VIT"></property>
+<property name="position" value="SDE-2"></property>
+
+
+</bean>
+
+
+</beans>
